@@ -1,0 +1,156 @@
+body{
+    background-color:black;
+    font-family: 'Orelega One', cursive;
+}
+.navbar{
+    background-color: black;
+}
+.logo{
+    height:70px;
+    width: 70px;
+    border-radius:50px;
+}
+.navbar-brand{
+    margin-left: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+.fa-heart{
+    color: red;
+}
+.navbar-nav li a{
+    color: cornsilk;
+}
+.col-sm-p{
+    height: 50px;
+    width: 300px;
+    margin-top: 60px;
+    margin-left:150px;
+    color:#ffc8bd;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+.col-sm-img1{
+    margin-top: 60px;
+    margin-left:150px;
+    border-radius: 5px;
+    transform: rotate(-30deg);
+}
+.col-sm-img2{
+    margin-top: 100px;
+    margin-left:20px;
+    border-radius: 5px;
+    transform: rotate(-30deg);
+}
+.col-sm-btn{
+    margin-top:10px;
+}
+.btn-you{
+    margin-left:250px;
+    cursor: pointer;
+}
+.fa-gratipay{
+    color:#ea2c62;
+}
+.btn-me{
+    margin-left: 50px;
+    cursor: pointer;
+}
+.fa-grin-hearts{
+    color:#00917c;
+}
+.container-bottom-icon{
+    color-adjust: white;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+.container-bottom1{
+    margin-top: 30px;
+    margin-left: 50px;
+    color:#00917c;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size:25px;
+}
+.container-bottom2{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(170, 163, 163);
+    font-family: cursive;
+    font-weight: bold;
+    font-size:20px;
+}
+.fa-heartbeat{
+    color:#810000;
+}
+.fa-globe-asia{
+    color: #00adb5;
+}
+.fa-comments{
+    color:#a35709;
+}
+
+@media only screen and (min-width:200px to max-width:700px)
+{
+    .logo{
+        height:35px;
+        width: 35px;
+        
+    }
+    .navbar-brand{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    .col-sm-p{
+        height: 25px;
+        width: 150px;
+        margin-top: 15px;
+        margin-left:75px;
+        font-size: 15px;
+    }
+    .col-sm-img1{
+       margin-top:320px;
+       margin-left: 200px;
+       height: 20px;
+       width: 20px;
+    }
+    .col-sm-img2{
+       margin-top:125px;
+       height: 20px;
+       width: 20px;
+    }
+    .col-sm-btn{
+        margin-top:10px;
+    }
+    .btn-you{
+       margin: auto;
+    }
+    .btn-me{
+        margin:auto;
+    
+    }
+    
+    .container-bottom-icon{
+        margin: auto;
+        /* margin-top: 70px;
+        margin-left: 200px; */
+    }
+    .container-bottom1{
+        /* margin-top: 30px;
+        margin-left: 50px; */
+        margin: auto;
+        font-size:15px;
+    }
+    .container-bottom2{
+        /* margin-top: 10px;
+        margin-left: 40px;
+        margin-right: 40px; */
+        margin: auto;
+        font-size:10px;
+    
+    }
+    
+}

@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(78, 77, 77);
+}
+.imgsmily{
+margin-left: 400px;
+}
+p{
+    font-size:30px;
+    color: rgb(9, 198, 245);
+    text-align: center;
+    font-weight: bold;
+}
+@media only screen and (min-width:100px to max-width:700px)
+{
+    .imgsmily{
+        text-align: center;
+        height: 100px;
+        width: 100px;
+        }  
+        p{
+            font-size: 10px;
+        } 
+}
